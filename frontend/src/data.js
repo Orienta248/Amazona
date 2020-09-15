@@ -30,15 +30,15 @@ export default {
         rating: 4.1,
         numReviews: 8
     },
-    {
-        _id: '4',
-        name: 'Best Pant',
-        category: 'Pants',
-        image: '/images/d1.jpg',
-        price: 40,
-        brand: 'Versace',
-        rating: 4.1,
-        numReviews: 8
-    }
+    // {
+    //     _id: '4',
+    //     name: 'Best Pant',
+    //     category: 'Pants',
+    //     image: '/images/d1.jpg',
+    //     price: 40,
+    //     brand: 'Versace',
+    //     rating: 4.1,
+    //     numReviews: 8
+    // }
 ]
 }

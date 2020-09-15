@@ -8,7 +8,8 @@ export default {
         price:60,
         brand: 'Nike',
         rating: 4.5,
-        numReviews: 10
+        numReviews: 10,
+        countInStock:0
     },
     {
         _id: '2',
@@ -18,7 +19,8 @@ export default {
         price: 50,
         brand: 'Puma',
         rating: 4.2,
-        numReviews: 9
+        numReviews: 9,
+        countInStock:4
     },
     {
         _id: '3',
@@ -28,17 +30,19 @@ export default {
         price: 70,
         brand: 'Adidas',
         rating: 4.1,
-        numReviews: 8
+        numReviews: 8,
+        countInStock:6
     },
-    // {
-    //     _id: '4',
-    //     name: 'Best Pant',
-    //     category: 'Pants',
-    //     image: '/images/d1.jpg',
-    //     price: 40,
-    //     brand: 'Versace',
-    //     rating: 4.1,
-    //     numReviews: 8
-    // }
+    {
+        _id: '4', 
+        name: 'Best Pant',
+        category: 'Pants',
+        image: '/images/d1.jpg',   
+        price: 40,
+        brand: 'Versace',
+        rating: 4.1,
+        numReviews: 8,
+        // countInStock:6
+    }
 ]
 }
